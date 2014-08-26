@@ -21,6 +21,11 @@
 		63526C2519AAD921003F836C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63526C0719AAD921003F836C /* UIKit.framework */; };
 		63526C2D19AAD921003F836C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63526C2B19AAD921003F836C /* InfoPlist.strings */; };
 		63526C2F19AAD921003F836C /* RatingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63526C2E19AAD921003F836C /* RatingsTests.m */; };
+		63526C3A19AAE8F4003F836C /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63526C3919AAE8F4003F836C /* PlayersViewController.m */; };
+		63526C3D19AAE944003F836C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 63526C3C19AAE944003F836C /* Player.m */; };
+		63526C4019AAF3FD003F836C /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63526C3F19AAF3FD003F836C /* PlayerCell.m */; };
+		63526C4319AB1630003F836C /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63526C4219AB1630003F836C /* PlayerDetailsViewController.m */; };
+		63526C4619AB2D9B003F836C /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63526C4519AB2D9B003F836C /* GamePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		63526C2A19AAD921003F836C /* RatingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingsTests-Info.plist"; sourceTree = "<group>"; };
 		63526C2C19AAD921003F836C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63526C2E19AAD921003F836C /* RatingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingsTests.m; sourceTree = "<group>"; };
+		63526C3819AAE8F4003F836C /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
+		63526C3919AAE8F4003F836C /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
+		63526C3B19AAE944003F836C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		63526C3C19AAE944003F836C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		63526C3E19AAF3FD003F836C /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		63526C3F19AAF3FD003F836C /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
+		63526C4119AB1630003F836C /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
+		63526C4219AB1630003F836C /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		63526C4419AB2D9B003F836C /* GamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		63526C4519AB2D9B003F836C /* GamePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,16 @@
 				63526C1919AAD921003F836C /* ViewController.m */,
 				63526C1B19AAD921003F836C /* Images.xcassets */,
 				63526C0A19AAD921003F836C /* Supporting Files */,
+				63526C3819AAE8F4003F836C /* PlayersViewController.h */,
+				63526C3919AAE8F4003F836C /* PlayersViewController.m */,
+				63526C3B19AAE944003F836C /* Player.h */,
+				63526C3C19AAE944003F836C /* Player.m */,
+				63526C3E19AAF3FD003F836C /* PlayerCell.h */,
+				63526C3F19AAF3FD003F836C /* PlayerCell.m */,
+				63526C4119AB1630003F836C /* PlayerDetailsViewController.h */,
+				63526C4219AB1630003F836C /* PlayerDetailsViewController.m */,
+				63526C4419AB2D9B003F836C /* GamePickerViewController.h */,
+				63526C4519AB2D9B003F836C /* GamePickerViewController.m */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -250,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				63526C1A19AAD921003F836C /* ViewController.m in Sources */,
+				63526C3A19AAE8F4003F836C /* PlayersViewController.m in Sources */,
 				63526C1419AAD921003F836C /* AppDelegate.m in Sources */,
 				63526C1019AAD921003F836C /* main.m in Sources */,
+				63526C4619AB2D9B003F836C /* GamePickerViewController.m in Sources */,
+				63526C4019AAF3FD003F836C /* PlayerCell.m in Sources */,
+				63526C3D19AAE944003F836C /* Player.m in Sources */,
+				63526C4319AB1630003F836C /* PlayerDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ratings/Ratings-Prefix.pch";
 				INFOPLIST_FILE = "Ratings/Ratings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ratings/Ratings-Prefix.pch";
 				INFOPLIST_FILE = "Ratings/Ratings-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

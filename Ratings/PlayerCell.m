@@ -10,4 +10,5 @@
 
 @implementation PlayerCell
 
+@synthesize nameLabel, gameLabel, ratingImageView;
 @end
